@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Container, Card } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Card } from "react-bootstrap";
 import ImageModal from "../ImageModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './ProjectsPage.css';
@@ -9,7 +9,7 @@ import {
   faFilePdf,
 } from "@fortawesome/free-solid-svg-icons";
 
-const ProjectsPage = () => {
+const ProjectsPage = ({ scrollToTop }) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
   const openModal = (imageUrl) => {
@@ -20,6 +20,10 @@ const ProjectsPage = () => {
     setSelectedImage("");
     setShowModal(false);
   };
+
+  useEffect(()=>{
+    scrollToTop();
+  },[])
 
   const projectsData = [
     {
@@ -93,7 +97,6 @@ const ProjectsPage = () => {
       category: "Research",
     },
   ];
-
 
   return (
     <div className="page-body">
