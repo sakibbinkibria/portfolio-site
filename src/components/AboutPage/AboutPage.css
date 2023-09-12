@@ -1,0 +1,25 @@
+.about-page-body {
+    background: linear-gradient(135deg, #261038, #0c2d33);
+    padding: 5% 15%;
+    min-height: calc(100vh - 62px);
+    box-sizing: border-box;
+    color: #caded1;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    @media (max-width: 768px) {
+        padding: 10%;
+    }
+}
+
+.about-text {
+    overflow: auto;
+    margin-top: 40px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: 'Courier New', monospace;
+        font-size: 1.3rem;
+        text-align: justify;
+        max-width: 800px;
+}

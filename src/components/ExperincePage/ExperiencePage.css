@@ -1,0 +1,34 @@
+    .page-body {
+        background: linear-gradient(135deg, #261038, #0c2d33);
+        padding: 5% 15%;
+        min-height: calc(100vh - 62px);
+        box-sizing: border-box;
+        color: #caded1;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        margin-top: 62px;
+        @media (max-width: 768px) {
+            padding: 20px 15px;
+        }
+    }
+    
+    .company-name {
+        color: #307dc9 !important;
+    }
+
+    .customCard {
+        border-left: 4px solid orangered !important;
+        border-bottom: 1px solid grey !important;
+        border-radius: 2px !important;
+        background: linear-gradient(135deg,#0c2d33, #261038);
+        color: #caded1 !important;
+    }
+
+        .customCard a{
+            text-decoration: none;
+        }
+
+    .date {
+        font-style: italic !important;
+    }

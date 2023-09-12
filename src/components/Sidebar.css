@@ -1,0 +1,40 @@
+
+.offcanvas {
+    width: 300px;
+}
+
+.offcanvas-header {
+    background-color: #333;
+    color: #fff;
+    border-bottom: none;
+    padding: 1rem;
+}
+
+.offcanvas-header .btn-close {
+    color: #fff;
+    background-color: orangered;
+    font-size: 1.5rem;
+}
+
+.offcanvas-body {
+    background-color: #2b2730;
+    padding: 1rem;
+}
+
+.offcanvas-body a {
+    display: block;
+    padding: 0.5rem 0;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.offcanvas-body a:hover {
+    background-color: #eb5e28;
+    color: #fff;
+}
+
+.offcanvas-body a.active {
+    background-color: #eb5e28;
+    color: #fff;
+}

@@ -1,0 +1,25 @@
+.customCardProjects {
+    background: linear-gradient(135deg, #0c2d33, #261038) !important;
+    color: #caded1 !important;
+    border-bottom: 1px solid grey;
+    max-width: 700px;
+    border-left: 4px solid orangered !important;
+}
+
+.customBg {
+    background: linear-gradient(135deg, #0c2d33, #261038) !important;
+}
+
+.btn-custom {
+    background-color: orangered !important;
+    color: white !important;
+}
+
+.projectScreenshot {
+    height: 300px;
+    width: auto;
+    @media (max-width: 768px) {
+            height: auto;
+            width: 100%
+        }
+}

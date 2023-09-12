@@ -1,0 +1,81 @@
+.main-container {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.custom-bg {
+  background: linear-gradient(to bottom, #010929, #0a0b12);
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.navbar-custom .nav-link {
+  font-size: 18px;
+  color: whitesmoke;
+  margin-right: 20px;
+}
+
+.navbar-custom .nav-link:active {
+  color: orangered;
+}
+.navbar-custom .nav-link:hover {
+  color: orangered;
+}
+.navbar-custom .nav-link:focus {
+  color: orangered;
+}
+
+.navbar-custom .btn {
+  background-color: #eb5e28;
+  color: #ffffff;
+  border: none;
+}
+
+.navbar-custom .btn:hover {
+  background-color: #ff8124;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+    background-color: white;
+  }
+
+  .navbar-toggler-icon {
+    background-color: #ffffff;
+  }
+
+  .navbar-toggler-icon-bar {
+    background-color: #ffffff;
+  }
+
+  .navbar-custom .navbar-nav {
+    display: none;
+  }
+
+  .navbar-custom .navbar-toggler {
+    display: block;
+    background-color: orangered;
+  }
+
+  .navbar-custom .navbar-collapse.show {
+    display: block;
+    background-color: white;
+  }
+}
+
+.modal-lg {
+  max-width: 80% !important;
+  margin: 0;
+  left: auto !important;
+  right: auto !important;
+  @media (max-width: 768px){
+    max-width: 100% !important;
+  }
+}
